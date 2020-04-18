@@ -1,0 +1,13 @@
+export function handleDownload(tHeader,filterVal,listQuery,tName,listFunction,downLoading){
+	listFunction(listQuery).then((res)=>{
+		var list=res.data.data.items
+		import('@/vendor/Export2Excel').then(excel => {
+					
+            excel.export_json_to_excel2(tHeader, list, filterVal, tName)
+            downLoading=false
+                    
+        })
+	}).catch((err)=>{
+		downLoading=false
+	})
+}

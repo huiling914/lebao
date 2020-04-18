@@ -1,0 +1,9 @@
+import request from '@/utils/request'
+
+export function listVoluntary(query){
+	return request({
+		url:'/biz/trade/voluntary/record/list',
+		method:'get',
+		params:query
+	})
+}

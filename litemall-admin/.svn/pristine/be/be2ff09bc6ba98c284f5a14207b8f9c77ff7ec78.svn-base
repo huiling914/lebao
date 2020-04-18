@@ -1,0 +1,5 @@
+module.exports = {
+	NODE_ENV: '"development"',
+  ENV_CONFIG: '"dev"',
+  BASE_API: '"http://kanghuaocean.cn:3020/mall/admin"'
+}
