@@ -1,0 +1,171 @@
+/**app.wxss**/
+page{
+  background-color: #f6f6f6;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1126546 */
+  src: url('//at.alicdn.com/t/font_1126546_6o0bx4g11eq.eot');
+  src: url('//at.alicdn.com/t/font_1126546_6o0bx4g11eq.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1126546_6o0bx4g11eq.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1126546_6o0bx4g11eq.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1126546_6o0bx4g11eq.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1126546_6o0bx4g11eq.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chat::before{
+  content: '\e63c'
+}
+.icon-chatchat::before{
+  content: '\e63c'
+}
+.icon-alipay::before{
+  content: '\e61b'
+}
+.icon-wxpay::before{
+  content: '\e634'
+}
+.icon-back::before{
+  content: '\e61c'
+}
+.icon-go::before{
+  content: '\e6bf'
+}
+.icon-selected::before{
+  content: '\e64c'
+}
+.icon-money::before{
+  content: '\e611'
+}
+.icon-add::before{
+  content: '\e601'
+}
+.icon-select::before{
+  content: '\e612'
+}
+.icon-search::before{
+  content: '\e60e'
+}
+.icon-notfound::before{
+  content: '\e631'
+}
+.icon-address::before{
+  content: '\e939'
+}
+.icon-nocourse::before{
+  content: '\e63b'
+}
+.icon-noteacher::before{
+  content: '\e69d'
+}
+.icon-course-desc::before{
+  content: '\e60a'
+}
+.icon-pay::before{
+  content: '\e61d'
+}
+.icon-discount::before{
+  content: '\e646'
+}
+.icon-phone::before{
+  content: '\e621'
+}
+.icon-close::before{
+  content: '\e615'
+}
+.icon-delete::before{
+  content: '\e625'
+}
+.icon-no-record::before{
+  content: '\e636'
+}
+.icon-pay-message::before{
+  content: '\e613'
+}
+.icon-refund::before{
+  content: '\e690'
+}
+.icon-garbage::before{
+  content: '\e67e'
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.block{
+  /**width: 90%;
+  margin-left: 5%;*/
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 16px;
+  box-shadow: 2px 2px 4px rgba(131, 131, 131, 0.2);
+}
+.banner{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.banner-line{
+  margin: 13px 13px;
+  margin-left: 18px;
+  width: 4px;
+  height: 14px;
+  background-color: #25aab1;
+}
+.banner text{
+  font-size: 14px;
+  color: #466466;
+  line-height: 40px;
+}
+.invalid{
+  border: 1rpx #da2b2b solid;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+button[disabled][type="default"], wx-button[disabled]:not([type]) {
+  background-color: transparent !important;
+  border: none !important;
+}
+.chat{
+  border: none;
+  background-color: transparent;
+  width: 70rpx;
+  height: 70rpx;
+  text-align: center;
+  position: fixed;
+  bottom: 20%;
+  right: 10rpx;
+  padding: 0;
+  margin: 0;
+  z-index: 9999;
+}
+.chat::after{
+  border: none;
+}
+.icon-chat , .icon-chatchat{
+  color: #25aab1;
+  font-size: 65rpx;
+  line-height: 70rpx;
+}

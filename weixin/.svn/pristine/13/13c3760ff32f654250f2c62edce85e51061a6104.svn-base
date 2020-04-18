@@ -1,0 +1,21 @@
+<!--pages/my/serve/serve.wxml-->
+<view class='vol-con'>
+<view class="vol-rec" bindtap='volRec'>
+  打卡记录<icon class='iconfont icon-shouzhi div-icon'></icon>
+</view>
+<view wx:if='{{volList.length==0}}' class='no-data'>
+    <icon class='iconfont icon-notfound'></icon>
+    <view class='no-data-text'>附近暂无志愿活动 (￣へ￣) </view>
+  </view>
+<view class="vol-list">
+  <view class="single-list" wx:for='{{volList}}'>
+    <view class='title'>
+    <view class="label">{{item.schoolName}}</view>
+    <!-- <text class="distance">距离:{{item.distance}}km</text> -->
+    </view>
+    <view class="schoolname">{{item.clockAddress}}</view>
+    <text>距离:{{item.distance}}m</text>
+    <view class='sign-btn' bindtap='sign' data-id='{{item.id}}'>打卡</view>
+  </view>
+</view>
+</view>

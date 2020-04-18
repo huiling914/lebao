@@ -1,0 +1,5 @@
+/* pages/school/school.wxss */
+@import "../../template/menu/menu.wxss";
+page{
+  background-color: #FFFFFF;
+}

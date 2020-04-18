@@ -1,0 +1,18 @@
+<!--pages/video/video.wxml-->
+<view wx:for='{{videoList}}'>
+  <view class='video-box'>
+    <view class='video-title'>
+      <image class='user-avtor' src='../../images/teacher-boy.png'></image>
+      <view class='user-name'>管理员</view>
+    </view>
+    <video id="myVideo" class="video" src="{{item.src}}" controls></video>
+    <!-- <view class='video-bottom'>
+      <view class='func'>点赞</view>
+      <view class='func'>评论</view>
+      <view class='func'>浏览量</view>
+    </view> -->
+    <view class='video-expert'>
+    专家
+    </view>
+  </view>
+</view>

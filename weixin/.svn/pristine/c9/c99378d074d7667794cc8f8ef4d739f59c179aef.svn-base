@@ -1,0 +1,5 @@
+<!--pages/school/school.wxml-->
+<button open-type='contact' class='chat'><icon class='iconfont icon-chat'></icon></button>
+<import src='../../template/menu/menu.wxml'/>
+<template is='menu' data='{{navbarList,hotPic,contentHeight,schoolList,isIphone5:isIphone5,currentType,text:"热门学校",counterPri:"schoolDetails"}}'>
+</template>
