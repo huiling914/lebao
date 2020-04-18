@@ -1,9 +1,0 @@
-import request from '@/utils/request'
-
-export function listSchool(query) {
-  return request({
-    url: 'http://kanghuaocean.cn:3020/mall/School/list',
-    method: 'get',
-    params: query
-  })
-}

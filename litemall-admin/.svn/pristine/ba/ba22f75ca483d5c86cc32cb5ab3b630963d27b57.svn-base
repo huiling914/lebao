@@ -1,9 +1,0 @@
-import request from '@/utils/request'
-
-export function listRecharge(query) {
-  return request({
-    url: 'http://kanghuaocean.cn:3020/biz/trade/account/charge/list',
-    method: 'get',
-    params: query
-  })
-}
