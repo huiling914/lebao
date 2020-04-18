@@ -1,5 +1,0 @@
-/* pages/store/store.wxss */
-@import "../../template/menu/menu.wxss";
-page{
-  background-color: #FFFFFF;
-}

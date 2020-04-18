@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "积分明细",
-  "usingComponents": {
-    "Select": "/components/select/select"
-  }
-}

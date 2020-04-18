@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "我的银行卡",
-  "usingComponents": {
-    "i-action-sheet": "/components/action-sheet/index"
-  }
-}

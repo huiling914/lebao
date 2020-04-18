@@ -1,7 +1,0 @@
-/* pages/login/loginEvent/event.wxss */
-@import "../login.wxss";
-
-.line{
-  float: left;
-  margin-top: 14px;
-}

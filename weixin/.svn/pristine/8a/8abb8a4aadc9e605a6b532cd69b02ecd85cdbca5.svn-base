@@ -1,7 +1,0 @@
-<!--pages/examReg/examReg.wxml-->
-<view class='exam-content'>
-  <view class='exam-list'></view>
-  <view class='exam-single' wx:for='{{examList}}' data-id='{{item.id}}' bindtap='toExamDetail'>
-    <view class='exam-name'>{{item.name}}</view>
-  </view>
-</view>
